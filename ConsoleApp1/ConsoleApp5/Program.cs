@@ -17,6 +17,12 @@ namespace ConsoleApp5
                     {
                         list.Add(sr.ReadLine());
                     }
+
+                    list.Sort();
+                    foreach(string s in list)
+                    {
+                        Console.WriteLine(s);
+                    }
                 }
             }
             catch(IOException e)
