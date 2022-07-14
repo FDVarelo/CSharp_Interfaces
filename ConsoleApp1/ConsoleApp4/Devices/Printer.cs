@@ -2,7 +2,7 @@
 
 namespace ConsoleApp4.Devices
 {
-    class Printer : Device
+    class Printer : Device, IPrinter // Superclasse Device, Interface IPrinter.
     {
         public override void ProcessDoc(string document)
         {

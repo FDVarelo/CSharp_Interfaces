@@ -2,7 +2,7 @@
 
 namespace ConsoleApp4.Devices
 {
-    class Scanner : Device
+    class Scanner : Device, IScanner // Superclasse Device, Interface IScanner.
     {
         public override void ProcessDoc(string document)
         {
